@@ -12,6 +12,11 @@ body{
   overflow:hidden;
 }
 
+.container .namecom{
+  color: #424242;
+  font-weight: bold;
+}
+
 ul{
   margin:0;
   padding:0;
@@ -24,6 +29,16 @@ ul{
   padding-left: 20px;
   padding-right:20px;
   color:#ffffff;
+}
+
+.button_communication{
+  height: 40px;
+  background: #2ae990;
+  padding-bottom: 40px;
+  border: 0;
+  padding-left: 23px;
+  padding-right: 23px;
+  color: white;
 }
 
 .dark{
@@ -146,6 +161,8 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
   padding:5px;
 }
+
+
 
 /* Main-col */
 article#main-col{
