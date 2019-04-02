@@ -34,7 +34,7 @@
         <div class="container">
           <h1>Subscribe To Becoming Member</h1>
           <form>
-            <input type="email" placeholder="Enter Email">
+            <input class="email" type="email" placeholder="Enter Email" pattern=".+@gmail.com" maxlength="35" minlength="15">
             <button type="submit" class="button_1">Subscribe</button>
           </form>
         </div>
@@ -63,15 +63,15 @@
 
 
                   <label>Name</label><br>
-                  <input type="text" placeholder="Name">
+                  <input type="text" placeholder="Name" minlength="5" required>
                 </div>
                 <div>
                   <label for="email">Email</label><br>
-                  <input type="mail" placeholder="Email Address" pattern=".+@gmail.com" maxlength="30" minlength="1">
+                  <input type="mail" placeholder="Email Address" pattern=".+@gmail.com" maxlength="35" minlength="15" required>
                 </div>
                 <div>
                   <label>Submit Message</label><br>
-                  <textarea placeholder="Message"></textarea>
+                  <textarea placeholder="Message" required></textarea>
 
 
                 </div>
