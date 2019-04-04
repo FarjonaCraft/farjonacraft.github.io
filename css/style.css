@@ -31,7 +31,7 @@ body{
   padding-left: 15px;
 }
 
-.progressbar #div {
+.progressbar .voltooid {
   background-color: orange;
   width: 40%;
   /* Adjust with JavaScript */
@@ -165,8 +165,21 @@ header a:hover{
 #imagebox .box{
   float:left;
   text-align: center;
-  width:30%;
+  width:25%;
   padding:10px;
+  /* background-color: #424242; */
+}
+
+#imagebox .indexbox{
+  float:left;
+  text-align: center;
+  width:33%;
+  padding:10px;
+  /* background-color: #424242; */
+}
+
+#imagebox .indexbox img{
+  width:90px;
 }
 
 #imagebox .box img{
@@ -176,7 +189,7 @@ header a:hover{
 /* Sidebar */
 aside#sidebar{
   float:right;
-  width:30%;
+  width:33%;
   margin-top:10px;
 }
 
@@ -218,7 +231,7 @@ footer{
   header nav li,
   #becomingmember h1,
   #becomingmember form,
-  #imagebox .box,
+  #imagebox .box .indexbox,
   article#main-col,
   aside#sidebar{
     float:none;
