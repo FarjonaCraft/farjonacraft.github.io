@@ -6,19 +6,19 @@ body{
 }
 
 /* Global */
-.layoutframe{
+.container{
   width:80%;
   margin:auto;
   overflow:hidden;
   background: none;
 }
 
-.layoutframe .namecom{
+.container .namecom{
   color: #424242;
   font-weight: bold;
 }
 
-.layoutframe .email{
+.container .email{
   color: #424242;
 }
 
@@ -165,16 +165,17 @@ header a:hover{
 #imagebox .box{
   float:left;
   text-align: center;
-  width:25%;
-  padding:10px;
+  widows:25%;
+  padding:3%;
   /* background-color: #424242; */
 }
+
 
 #imagebox .indexbox{
   float:left;
   text-align: center;
-  width:33%;
-  padding:10px;
+  widows: 30%;
+  padding:36px;
   /* background-color: #424242; */
 }
 
@@ -256,4 +257,19 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
 }
